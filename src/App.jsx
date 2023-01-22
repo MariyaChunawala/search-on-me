@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 // Components
 import { Navbar } from "./components/Navbar";
-import { Routes } from "./components/Routes";
+import { Paths } from "./components/Paths";
 import { Footer } from "./components/Footer";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <div className={darkTheme ? "dark" : ""}>
         <div className="bg-gray-200 dark:bg-gray-900 dark:text-gray-200 black min-h-screen">
           <Navbar darkTheme={darkTheme} setDarkTheme={setDarkTheme} />
-          <Routes />
+          <Paths />
           <Footer />
         </div>
       </div>
